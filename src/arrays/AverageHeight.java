@@ -16,7 +16,7 @@ public class AverageHeight {
         // Declarando o Array (Vetor) com nomes claros
         double[] heights = new double[numberOfPeople];
 
-        // Populando o Array
+        // Populando  Array
         for (int i = 0; i < numberOfPeople; i++) {
             System.out.print("Enter height for person " + (i + 1) + ": ");
             heights[i] = sc.nextDouble();
